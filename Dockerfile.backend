@@ -6,8 +6,6 @@ COPY . .
 
 RUN bun install
 
-RUN bun run generate:db
-
 EXPOSE 8080
 
 CMD ["bun", "start:backend"]
